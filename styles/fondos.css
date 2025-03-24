@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+  background: linear-gradient(102deg, #990069, #ed2860);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  border: 2px solid #ed2860;
+  border-radius: 40px;
+  width: 80%;
+  padding: 30px;
+  margin: 0 auto;
+  color: white;
+  background-color: #d679933a;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.plano {
+  background-color: #990069;
+}
+
+.gradiente {
+  background: linear-gradient(150deg, #990069, #ed2860);
+}
+
+.imagen {
+  background-image: url(../assets/img/wallpaper-8257343_640.png);
+}
+
+h4 {
+  text-align: center;
+}

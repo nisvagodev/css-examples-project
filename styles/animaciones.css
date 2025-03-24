@@ -1,0 +1,51 @@
+.title {
+  text-align: center;
+  background: linear-gradient(102deg, #990069, #ed2860);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 20px;
+}
+
+@keyframes animacion {
+  from {
+    left: 0;
+    background-color: #990069;
+  }
+  to {
+    left: 200px;
+    background-color: #ed2860;
+  }
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  border: 2px solid black;
+}
+
+.linear {
+  animation: animacion 2s linear infinite alternate;
+}
+
+.ease {
+  animation: animacion 2s ease infinite alternate;
+}
+
+.ease-in {
+  animation: animacion 2s ease-in infinite alternate;
+}
+
+.ease-out {
+  animation: animacion 2s ease-out infinite alternate;
+}
+
+.ease-in-out {
+  animation: animacion 2s ease-in-out infinite alternate;
+}

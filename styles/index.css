@@ -1,0 +1,28 @@
+.introduccion {
+  text-align: center;
+  margin: 0 20%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 15px;
+}
+
+h2,
+h3,
+p {
+  color: #211c33;
+}
+
+.title {
+  background: linear-gradient(102deg, #990069, #ed2860);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5em;
+}
+
+.introduccion a {
+  color: #ed2860;
+}
