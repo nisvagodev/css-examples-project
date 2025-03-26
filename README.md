@@ -2,7 +2,7 @@
 
 [PROYECTO CSS 2 LINK A WEB (NETLIFY)](https://css-example-project.netlify.app/)
 
-![Captura de pantalla del proyecto de CSS]()
+![Captura de pantalla del proyecto de CSS](https://github.com/nisvagodev/css-examples-project/blob/main/assets/img/captura-de-pantalla.PNG?raw=true)
 
 Este es el repositorio de la página web que trae ejemplos de Bordes, Texto, Fondos y Animaciones, junto a links útiles para ser un gran diseñador web.
 En esta página podrás encontrar:
